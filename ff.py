@@ -10,8 +10,6 @@ mc = Minecraft.create()
 
 x, y, z = mc.player.getPos()
 
-air = 0
-
 while True:
 	mc.setBlock(x-3,y,z-3,6,4,6, air)
 
